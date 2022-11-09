@@ -1,0 +1,73 @@
+{
+    "hello": {
+        "message": "Hi my friend, I am questionnaire bot. Whats your name?",
+        "InlineKeyboard": "not"
+    },
+    "age": {
+        "message": "How are old you?",
+        "InlineKeyboard": "not"
+    },
+    "ready": {
+        "message": "Are you ready to answer the questions?",
+        "InlineKeyboard": [
+            {
+                "text": "Lets go 😊",
+                "data": "yes"
+            },
+            {
+                "text": "Maybe later 😐",
+                "data": "no"
+            },
+            {
+                "text": "ok",
+                "data": "maybe"
+            }
+        ]
+    },
+    "questions_1": {
+        "message": "how do you feel today?",
+        "InlineKeyboard": [
+            {
+                "text": "Lots of energy and enjoy 😊",
+                "data": "True-True"
+            },
+            {
+                "text": "LIttle energy and like it 😌",
+                "data": "False-True"
+            },
+            {
+                "text": "Low energy and dislike 😔",
+                "data": "False-False"
+            },
+            {
+                "text": "Lots of energy and dislike 😡",
+                "data": "True-False"
+            }
+        ]
+    },
+    "pause": {
+        "message": "Okay, Come back when you're ready.",
+        "InlineKeyboard": [
+            {
+                "text": "I'm ready",
+                "data": "ready"
+            }
+        ]
+    },
+
+    "recorded": {
+    "message": "Status has been recorded.",
+    "InlineKeyboard": [
+        {
+            "text": "write new state.",
+            "data": "another_one_state"
+        },
+
+        {
+            "text": "No need, but thanks.",
+            "data": "nothing"
+        }
+
+    ]
+}
+}
